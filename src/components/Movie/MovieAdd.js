@@ -61,7 +61,7 @@ export default function MovieAdd({ movies, setMovies }) {
 
   return(
     <div>
-      <button onClick={handleMovieAdd} style={styles.formCenter}>Add New Movie</button>
+      <button onClick={handleMovieAdd} style={styles.formCenter}>Toggle Form</button>
       {
         formToggle ?
           <form style={styles.formCenter} onSubmit={handleSubmit}>
